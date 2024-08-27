@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HealthCheck {
 
-    @GetMapping("/heelo")
+    @GetMapping("/hello")
     public String hello(){
-        return "Hello, Spring Boot!";
+        return "Hello, Spring !";
     }
 }
